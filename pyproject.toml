@@ -111,7 +111,8 @@ ipython = 'IPython'
 
 [tool.pytest.ini_options]
 minversion = '6.0'
-addopts = '-ra -n auto'
+# disable parallelism of tests to avoid memory errros and failed tests
+# addopts = '-ra -n auto'
 testpaths = [
     'tests/unit',
 ]
