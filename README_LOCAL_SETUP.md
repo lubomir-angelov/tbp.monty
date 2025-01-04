@@ -61,3 +61,10 @@ pytest -p no:xdist tests/unit -v -s -rP
 ...
 =============================================================================== 318 passed, 486 warnings in 757.51s (0:12:37) ===============================================================================
 ```
+
+
+# More info
+https://stackoverflow.com/questions/72540359/glibcxx-3-4-30-not-found-for-librosa-in-conda-virtual-environment-after-tryin
+https://askubuntu.com/questions/670485/how-to-inspect-the-currently-used-nvidia-driver-version-and-switch-it-to-another
+https://stackoverflow.com/questions/61336369/pytest-xdist-crashes-while-executing-test-cases-with-multiple-process
+https://github.com/pytest-dev/pytest-xdist/issues/435
